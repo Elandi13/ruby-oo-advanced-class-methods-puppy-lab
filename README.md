@@ -21,7 +21,7 @@ instance of `Dog` that is instantiated.
 
 ## Instructions
 
-Code your solution in `lib/dog.rb`, using the test error messages from running
+<!-- Code your solution in `lib/dog.rb`, using the test error messages from running
 `learn test` as a guide to your solution.
 
 - Create a class variable `@@all` set to an empty array inside your class. This
@@ -44,17 +44,17 @@ Code your solution in `lib/dog.rb`, using the test error messages from running
   refactoring. Rather than pushing `self` into the `@@all` variable inside of
   `#initialize`, let's extract this action into its own method. Call this method
   `#save`. The method should handle the task of pushing `self` into `@@all`.
-  Once written, update your code in `#initialize` so that it uses `#save`.
+  Once written, update your code in `#initialize` so that it uses `#save`. -->
 
 There is one method that we'll talk about together:
 
 ### The `.clear_all` Method
 
-What happens if we want to clear out our list of existing dogs? It is not at all
+<!-- What happens if we want to clear out our list of existing dogs? It is not at all
 uncommon to want to "reset" or "restart" our program. You'll be building a class
 method, `.clear_all`, that does just that. This method should operate on the
 `@@all` array of existing dogs and empty that array. **Hint:** look up the
-`Array#clear` method.
+`Array#clear` method. -->
 
 ### A Note on Testing
 
